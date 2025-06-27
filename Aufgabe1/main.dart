@@ -47,6 +47,8 @@ void main() {
   // Displaying information about the tools
   print('Hammer Informationen:');
   hammer.displayInfo();
+  hammer.displayWeight();
   print('\nSägen Informationen:');
   saw.displayInfo();
+  saw.displayType();
 }
