@@ -30,6 +30,7 @@ class Milk extends Grocery {
   @override
   void displayInfo() {
     super.displayInfo();
+    print('Fat Content: $fatContent%');
   }
 }
 
@@ -43,10 +44,11 @@ class Butter extends Grocery {
   @override
   void displayInfo() {
     super.displayInfo();
+    print('Type: $type');
   }
 }
 
-void main2() {
+void main() {
   // Creating instances of Milk and Butter
   Milk milk = Milk('Milk', 'Alpenmilch', 1.0, 1.20, 3.5);
   Butter butter = Butter('Butter', 'Landliebe', 0.25, 2.50, 'Süßrahmbutter');
