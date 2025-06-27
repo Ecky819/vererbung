@@ -21,10 +21,7 @@ class Hammer extends Tool {
   Hammer(String brand, String model, double price, this.weight)
     : super(brand, model, price);
 
-  // Overriding the displayInfo method
-  @override
-  void displayInfo() {
-    super.displayInfo();
+  void displayWeight() {
     print('Weight: $weight kg');
   }
 }
@@ -38,9 +35,7 @@ class Saw extends Tool {
     : super(brand, model, price);
 
   // Overriding the displayInfo method
-  @override
-  void displayInfo() {
-    super.displayInfo();
+  void displayType() {
     print('Type: $type');
   }
 }
