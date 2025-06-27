@@ -45,10 +45,10 @@ void main() {
   Hammer hammer = Hammer('DeWalt', 'DWHM100', 29.99, 1.5);
   Saw saw = Saw('Bosch', 'BSH123', 49.99, 'Kreissäge');
   // Displaying information about the tools
-  print('Hammer Informationen:');
+  print('Hammer Informations:');
   hammer.displayInfo();
   hammer.displayWeight();
-  print('\nSägen Informationen:');
+  print('\nSaw Informations:');
   saw.displayInfo();
   saw.displayType();
 }

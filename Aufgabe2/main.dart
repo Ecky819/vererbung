@@ -54,8 +54,8 @@ void main() {
   Butter butter = Butter('Butter', 'Landliebe', 0.25, 2.50, 'Süßrahmbutter');
 
   // Displaying information about the groceries
-  print('Milk Information:');
+  print('Milk Informations:');
   milk.displayInfo();
-  print('\nButter Information:');
+  print('\nButter Informations:');
   butter.displayInfo();
 }
